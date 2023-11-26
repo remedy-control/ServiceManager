@@ -1,0 +1,8 @@
+/src/java/*.properties
+/src/java/ConstantExtern/*.properties
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/

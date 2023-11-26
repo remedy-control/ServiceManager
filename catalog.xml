@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/CONSULTOR/Desktop/ServiceManager/ServiceManager.wsdl" uri="src/conf/xml-resources/web-service-references/ServiceManager/wsdl/ServiceManager.wsdl"/>
+    <system systemId="http://www.w3.org/2005/05/xmlmime" uri="src/conf/xml-resources/web-service-references/ServiceManager/wsdl/www.w3.org/2005/05/xmlmime.xsd"/>
+    <system systemId="http://100.127.39.63:13109/SM/7/Common.xsd" uri="src/conf/xml-resources/web-service-references/ServiceManager/wsdl/100.127.39.63_13109/SM/7/Common.xsd"/>
+</catalog>

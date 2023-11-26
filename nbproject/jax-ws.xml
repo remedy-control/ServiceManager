@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="IncidentSM">
+      <implementation-class>SM.IncidentSM</implementation-class>
+    </service>
+  </services>
+  <clients>
+    <client name="ServiceManager">
+      <!--<wsdl-url>file:/C:/Users/CONSULTOR/Desktop/ServiceManager/ServiceManager.wsdl</wsdl-url>-->
+      <wsdl-url>file:/webapps/wsdl/ServiceManager.wsdl</wsdl-url>
+      <local-wsdl-file>ServiceManager.wsdl</local-wsdl-file>
+      <package-name forceReplace="true">SM_import</package-name>
+      <catalog-file>catalog.xml</catalog-file>
+      <wsimport-options>
+        <wsimport-option>
+          <wsimport-option-name>extension</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>verbose</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>fork</wsimport-option-name>
+          <wsimport-option-value>false</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>wsdlLocation</wsimport-option-name>
+          <wsimport-option-value>file:/webapps/wsdl/ServiceManager.wsdl</wsimport-option-value>
+<!--          <wsimport-option-value>file:/C:/Users/CONSULTOR/Desktop/ServiceManager/ServiceManager.wsdl</wsimport-option-value>-->
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xnocompile</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xendorsed</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>package</wsimport-option-name>
+          <wsimport-option-value>SM_import</wsimport-option-value>
+        </wsimport-option>
+      </wsimport-options>
+    </client>
+  </clients>
+  <jsr109>true</jsr109>
+</jax-ws>
